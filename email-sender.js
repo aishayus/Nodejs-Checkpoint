@@ -4,7 +4,7 @@ async function Email() {
     let transporter = emailSender.createTransport({
         service: 'gmail',
         auth: {
-            user: "your-email@getMaxListeners.com", 
+            user: "your-email@gmail.com", 
             pass: "your-password" 
         }
     })
